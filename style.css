@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #FFB21E;
+  padding: 85px;
+}
+.left {
+  background-image: url(./images/unsplash_SYTO3xs06fU.png);
+  width: 863px;
+  height: 850px;
+}
+.shadow {
+  background: #1D1D1D;
+  opacity: 0.8;
+  width: 863px;
+  height: 850px;
+}
+.logo {
+  padding-top: 61px;
+  margin-left: 78px;
+}
+.p1 {
+  margin-top: 186px;
+  margin-left: 78px;
+  width: 550px;
+  height: 216px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.learn-more {
+  margin-top: 26px;
+  margin-left: 78px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+  gap: 10px;
+  width: 204px;
+  height: 40px;
+  background: #FFB21E;
+  opacity: 0.7;
+  border-radius: 6px;  
+}
+.p2 {
+  width: 142px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.left-footer {
+  display: flex;
+  margin-top: 105px;
+  margin-left: 95px;
+  gap: 24px;
+}
+a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.right {
+  background-color: white;
+  width: 600px;
+  height: 850px;
+}
+.menu {
+  margin-top: 60px;
+  margin-left: 500px;
+}
+.p3 {
+  padding-top: 150px;
+  padding-left: 60px;
+  width: 361px;
+  height: 72px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #B3B3B3;  
+}
+.form-inputs {
+  margin-top: 100px;
+  margin-left: 75px;
+  position: relative;
+}
+.input1 {
+  position: relative;
+}
+.input1::before {
+  content: "";
+  width: 20px;
+  height: 26px;
+  background-image: url(./images/Vector1.png);
+  display: block;
+  position: absolute;
+}
+.input2 {
+  position: relative;
+  margin-top: 48px;
+}
+.input2::before {
+  content: "";
+  width: 26.6px;
+  height: 28.3px;
+  background-image: url(./images/Vector.png);
+  display: block;
+  position: absolute;
+}
+input {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  border-bottom: 1px gray solid;
+  margin-left: 35px;
+  outline: none;
+  width: 368px;
+}
+.reg {
+  display: flex;
+  margin-left: 74px;
+  margin-top: 50px;
+}
+.sign {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+  gap: 10px;
+  width: 173px;
+  height: 25px;
+  background: #FFB21E;
+  opacity: 0.7;
+  border-radius: 6px;
+}
+.p4 {
+  width: 145px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.a1 {
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 211px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  border-bottom: #000000 1px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .left {
+    width: 600px;
+    height: 700px;
+  }
+  .shadow {
+    width: 600px;
+    height: 700px;
+  }
+  .logo {
+    padding-top: 50px;
+    margin-left: 50px;
+  }
+  .p1 {
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 550px;
+    height: 216px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+  }
+  .learn-more { 
+    margin-top: 26px;
+    margin-left: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    gap: 10px;
+    width: 204px;
+    height: 40px;
+  }
+  .menu {
+    display: none;
+  }
+}
